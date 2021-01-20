@@ -73,6 +73,16 @@ body{
   text-transform: uppercase;
 }
 
+.pricing-card li:not(:last-child) {
+  margin: auto 75px;
+  border-bottom: 1px dashed #f9320f80;
+}
+.pricing-card:hover li:not(:last-child) {
+  position: relative;
+  margin: auto 75px;
+  border-bottom: 1px dashed #fff;
+}
+
 .order-btn{
   display: inline-block;
   margin-bottom: 40px;
